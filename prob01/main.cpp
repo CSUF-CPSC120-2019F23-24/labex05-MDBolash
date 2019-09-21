@@ -20,7 +20,7 @@ int main()
   d2 *= 0.00001;
   f2 *= 0.00001;
 
-  std::cout << "\nThe values start to drift apart the closer they get to 0." << std::endl;
+  std::cout << "\nThe values start to drift apart the closer they get to 0 due to becoming less precise." << std::endl;
   std::cout << sizeof(d2) << " bytes, value: " << d2 << std::endl;
   std::cout << sizeof(f2) << " bytes, value: " << f2 << std::endl;
 
@@ -28,7 +28,7 @@ int main()
   f2 *= 0.01;
 
   // TODO#1 add comment describing what's happening
-  std::cout << "\nThe numbers of d2 and f2 continue to drift closer to zero and continue to change." << std::endl;
+  std::cout << "\nThe numbers of d2 and f2 continue to drift closer to zero and continue to change and become less precise." << std::endl;
   std::cout << sizeof(d2) << " bytes, value: " << d2 << std::endl;
   std::cout << sizeof(f2) << " bytes, value: " << f2 << std::endl;
 
